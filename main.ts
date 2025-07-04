@@ -133,9 +133,9 @@ basic.forever(function () {
         game.gameOver()
     }
     if (Jaggubbe.isTouching(mål) == led.point(4, 0)) {
-        music.setVolume(50)
+        music.setVolume(127)
         music.play(music.stringPlayable("B B A E E D D D ", 120), music.PlaybackMode.InBackground)
-        basic.showString("(\"You Win!\")")
+        basic.showString("You Win!")
         basic.showLeds(`
             # . . . .
             . . . . .
